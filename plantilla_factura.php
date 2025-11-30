@@ -118,20 +118,33 @@ body {
         </p>
     </div>
 
-    <!-- Datos del Emisor -->
-    <div>
-        <div class="section-titulo">Datos del Emisor</div>
-        <table style="width: 100%; font-size: 12px;">
-            <tr>
-                <td><strong>Nombre:</strong> <?= $_POST['emisor_nombre'] ?></td>
-                <td><strong>NIT:</strong> <?= $_POST['emisor_nit'] ?></td>
-            </tr>
-            <tr>
-                <td><strong>NRC:</strong> <?= $_POST['emisor_nrc'] ?></td>
-                <td><strong>Dirección:</strong> <?= $_POST['emisor_direccion'] ?></td>
-            </tr>
-        </table>
-    </div>
+<!-- Datos del Emisor -->
+<div>
+    <div class="section-titulo">Datos del Emisor</div>
+    <table style="width: 100%; font-size: 12px;">
+        <tr>
+            <td><strong>Nombre / Razón Social:</strong> <?= $_POST['emisor_nombre'] ?></td>
+            <td><strong>Nombre Comercial:</strong> <?= $_POST['emisor_comercial'] ?></td>
+        </tr>
+        <tr>
+            <td><strong>NIT:</strong> <?= $_POST['emisor_nit'] ?></td>
+            <td><strong>NRC:</strong> <?= $_POST['emisor_nrc'] ?></td>
+        </tr>
+        <tr>
+            <td><strong>Actividad Económica:</strong> <?= $_POST['emisor_actividad'] ?></td>
+            <td><strong>Establecimiento:</strong> <?= $_POST['emisor_establecimiento'] ?></td>
+        </tr>
+        <tr>
+            <td><strong>Dirección:</strong> <?= $_POST['emisor_direccion'] ?></td>
+            <td><strong>Teléfono:</strong> <?= $_POST['emisor_tel'] ?></td>
+        </tr>
+        <tr>
+            <td><strong>Correo:</strong> <?= $_POST['emisor_correo'] ?></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
 
     <!-- Datos del Cliente -->
     <div>

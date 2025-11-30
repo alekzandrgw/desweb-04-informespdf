@@ -49,6 +49,25 @@
             </div>
         </div>
 
+        <div class="row">
+    <div class="col-md-3 mb-2">
+        <label>Teléfono</label>
+        <input type="text" name="emisor_tel" class="form-control">
+    </div>
+    <div class="col-md-3 mb-2">
+        <label>Correo</label>
+        <input type="email" name="emisor_correo" class="form-control">
+    </div>
+    <div class="col-md-3 mb-2">
+        <label>Nombre Comercial</label>
+        <input type="text" name="emisor_comercial" class="form-control">
+    </div>
+    <div class="col-md-3 mb-2">
+        <label>Establecimiento</label>
+        <input type="text" name="emisor_establecimiento" class="form-control">
+    </div>
+</div>
+
         <h4 class="mt-4">Datos del Cliente</h4>
         <div class="row">
             <div class="col-md-6 mb-2">
